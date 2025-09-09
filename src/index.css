@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --Primary-bg-color: #0b0d0e;
+  --Secondary-bg-color: #242424;
+  --Third-bg-color: #191919;
+  --Primary-font-color: #ffffff;
+  --Seconday-font-color: #35c6df;
+  --Footer-font-color: #bcbbbb;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Syne", sans-serif;
+  background-color: var(--Primary-bg-color);
+  color: var(--Primary-font-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0px;
+  font-weight: 500;
+}
+h1 {
+  color: var(--Primary-font-color);
+  font-size: 46px;
+  font-family: "Syne", sans-serif;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+  margin: 8px 0px;
+  font-weight: 400;
+}
+a {
+  color: var(--Primary-font-color);
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
