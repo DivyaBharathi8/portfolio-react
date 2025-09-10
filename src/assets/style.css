@@ -111,6 +111,15 @@
   color: var(--Seconday-font-color);
 }
 
+/* About Section*/
+.about-sec-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 640px;
+  height: 100%;
+}
 @media (max-width: 768px) {
   .nav-list {
     position: fixed;

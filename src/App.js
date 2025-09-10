@@ -1,6 +1,7 @@
 import Header from "./header";
 import BannerSection from "./components/banner-section";
 import CardsContainer from "./components/cards/cards-container";
+import { AboutUs } from "./components/about-us";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <section>
         <BannerSection />
         <CardsContainer />
+        <AboutUs />
       </section>
     </main>
   );
