@@ -97,3 +97,15 @@
   line-height: 22px;
   font-family: "Lato", sans-serif;
 }
+
+@media (max-width: 768px) {
+  .card-section-top,
+  .card-section-bottom {
+    grid-template-columns: 100%;
+    gap: 28px;
+    padding: 16px 30px;
+  }
+  .card-container {
+    padding: 30px;
+  }
+}

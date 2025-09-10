@@ -4,11 +4,11 @@ import AboutImg from "../assets/images/about.png";
 
 const AboutUs = () => {
   return (
-    <div className="banner-section flex-center">
-      <div className="about-sec-img">
+    <div className="banner-section flex-center p-t-b">
+      <div className="about-sec-img p-50">
         <img src={AboutImg} className="about-img" alt="" />
       </div>
-      <div className="left-section p-50">
+      <div className="left-section p-r-50">
         <h2 className="designation">
           <span>About</span>
         </h2>
