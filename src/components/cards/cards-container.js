@@ -39,7 +39,7 @@ export function CardsContainer() {
   ];
 
   return (
-    <div>
+    <div className="card-sec-container">
       <div className="card-section-top">
         <div className="card-left">
           {cardsContent.map((card, idx) => (
