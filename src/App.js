@@ -4,6 +4,7 @@ import CardsContainer from "./components/cards/cards-container";
 import { AboutUs } from "./components/about-us";
 import DetailsContainer from "./components/details-card/details-container";
 import SkillsContainer from "./components/skills/skills-container";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <DetailsContainer />
         <SkillsContainer />
       </section>
+      <Footer />
     </main>
   );
 }
