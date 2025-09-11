@@ -3,7 +3,7 @@ import "./assets/style.css";
 import LinkedInImg from "./assets/images/linkedin.png";
 import InstaImg from "./assets/images/insta.png";
 import WhatsAppInImg from "./assets/images/whatsapp.png";
-import DetailsContainer from "./components/details-card/details-container";
+import FooterDetailsContainer from "./components/footer-details/details-container";
 
 const Footer = () => {
   const footerData = [
@@ -26,7 +26,7 @@ const Footer = () => {
           hello? Drop me a line and I'll get back as soon as possible.
         </div>
         <div className="line"></div>
-        <DetailsContainer />
+        <FooterDetailsContainer />
       </div>
     </section>
   );
