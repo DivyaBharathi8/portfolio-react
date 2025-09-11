@@ -1,7 +1,7 @@
 import React from "react";
 import "../comp-style.css";
 
-export function Details({ detailTitle, detailDes }) {
+function Details({ detailTitle, detailDes }) {
   return (
     <div>
       <p className="details-name">{detailTitle}</p>

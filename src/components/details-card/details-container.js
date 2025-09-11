@@ -1,7 +1,7 @@
 import React from "react";
 import Details from "./details";
 
-export function DetailsContainer() {
+function DetailsContainer() {
   const detailsData = [
     { detailTitle: "Name", detailDes: "Divya Bharathi P" },
     { detailTitle: "Phone", detailDes: "+919014716599" },
