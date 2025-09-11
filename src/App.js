@@ -2,6 +2,7 @@ import Header from "./header";
 import BannerSection from "./components/banner-section";
 import CardsContainer from "./components/cards/cards-container";
 import { AboutUs } from "./components/about-us";
+import DetailsContainer from "./components/details-card/details-container";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <BannerSection />
         <CardsContainer />
         <AboutUs />
+        <DetailsContainer />
       </section>
     </main>
   );
