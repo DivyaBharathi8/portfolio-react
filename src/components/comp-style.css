@@ -143,4 +143,8 @@ Responsive
     grid-template-columns: 2fr 2fr;
     gap: 30px;
   }
+  .footer-container .heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }

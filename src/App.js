@@ -5,6 +5,7 @@ import { AboutUs } from "./components/about-us";
 import DetailsContainer from "./components/details-card/details-container";
 import SkillsContainer from "./components/skills/skills-container";
 import ProjectsSection from "./components/projects/projects-container";
+import ContactForm from "./components/form/form";
 import Footer from "./footer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <DetailsContainer />
         <SkillsContainer />
         <ProjectsSection />
+        <ContactForm />
       </section>
       <Footer />
     </main>
