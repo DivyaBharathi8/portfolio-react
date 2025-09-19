@@ -93,7 +93,7 @@
 }
 
 .card-arrow:hover {
-  transform: rotate(-318deg) translateX(4px);
+  transform: rotate(-360deg) translateX(0px);
 }
 
 .card-title {
