@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import MvvImg from "../../assets/images/projects/MVV.webp";
 import SiImg from "../../assets/images/projects/South-India.webp";
@@ -31,22 +31,33 @@ function Arrow(props) {
 }
 
 function ProjectsSection() {
+  const [isMobile, setIsMobile] = useState(undefined);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 650);
+    checkMobile(); // set at mount
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: isMobile ? 1 : 3,
     slidesToScroll: 1,
     arrows: true,
     nextArrow: <Arrow direction="next" />,
     prevArrow: <Arrow direction="prev" />,
     responsive: [
-      { breakpoint: 1000, settings: { slidesToShow: 2 } },
-      { breakpoint: 650, settings: { slidesToShow: 1 } },
+      { breakpoint: 1000, settings: { slidesToShow: 2, arrows: true } },
+      { breakpoint: 650, settings: { slidesToShow: 1, arrows: true } },
     ],
   };
 
+  if (isMobile === undefined) return null; // Avoid SSR/client mismatch
+
   return (
-    <div className="projects-section">
+    <div className="projects-section container">
       <div className="projects-section-header">
         <div className="project-header-left">
           <div>
@@ -56,15 +67,13 @@ function ProjectsSection() {
             </h2>
           </div>
           <div className="mid-line"></div>
-          <div>
+          <div className="projects-desc">
             <p>
               Designing and developing dynamic, responsive websites using custom
               themes, plugins, and optimized layouts in WordPress.
             </p>
           </div>
         </div>
-
-        <div className="carousel-arrows"></div>
       </div>
       <Slider {...settings}>
         {projectsData.map((project, idx) => (
@@ -78,7 +87,7 @@ function ProjectsSection() {
                 rel="noopener noreferrer"
               >
                 View Project
-                <i class="fas fa-arrow-right btn-arrow"></i>
+                <i className="fas fa-arrow-right btn-arrow"></i>
               </a>
               <h3>{project.title}</h3>
             </div>

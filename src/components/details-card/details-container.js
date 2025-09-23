@@ -5,12 +5,13 @@ function DetailsContainer() {
   const detailsData = [
     { detailTitle: "Name", detailDes: "Divya Bharathi P" },
     { detailTitle: "Phone", detailDes: "+919014716599" },
+    { detailTitle: "Email", detailDes: "divyabharathi0807@gmail.com" },
     { detailTitle: "Freelance", detailDes: "Available" },
     { detailTitle: "LinkedIn", detailDes: "Linkedin/divyabharathi.p" },
-    { detailTitle: "Email", detailDes: "divyabharathi0807@gmail.com" },
+    { detailTitle: "Location", detailDes: "Visakhapatnam" },
   ];
   return (
-    <section className="detail-sec">
+    <section className="detail-sec container">
       <div className="details-container">
         {detailsData.map((values, index) => (
           <Details

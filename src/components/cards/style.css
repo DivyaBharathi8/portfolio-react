@@ -1,5 +1,6 @@
 .card-sec-container {
-  padding: 0 50px 20px 50px;
+  padding: 50px 50px;
+  background-color: var(--Secondary-bg-color);
 }
 .card-section-top {
   display: grid;
@@ -41,7 +42,7 @@
 }
 
 .card-container {
-  background: var(--Secondary-bg-color);
+  background: var(--Third-bg-color);
   border-radius: 16px;
   padding: 32px 34px 32px 34px;
   color: var(--Primary-font-color);
@@ -104,12 +105,17 @@
 
 .card-desc {
   margin-top: 12px;
-  font-size: 16px;
+  font-size: 18px;
   color: #ddd;
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
 }
-
+.card-sec-container .heading {
+  font-weight: 400;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
 /* ===============================
    Responsive
 ================================= */
@@ -128,7 +134,7 @@
 
 @media (max-width: 768px) {
   .card-sec-container {
-    padding: 30px 20px;
+    padding: 40px 20px;
   }
   .card-section-top,
   .card-section-bottom {
@@ -145,7 +151,7 @@
     font-size: 18px;
   }
   .card-desc {
-    font-size: 16px;
+    font-size: 17px;
   }
   .card-arrow {
     font-size: 10px;
@@ -168,7 +174,6 @@
   }
 
   .card-desc {
-    font-size: 16px;
     line-height: 1.4;
   }
   .card-number {

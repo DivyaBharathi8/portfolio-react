@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./assets/style.css";
 import LinkedInImg from "./assets/images/linkedin.png";
 import InstaImg from "./assets/images/insta.png";
 import WhatsAppInImg from "./assets/images/whatsapp.png";
-import FooterDetailsContainer from "./components/footer-details/details-container";
 
 const Footer = () => {
   const footerData = [
@@ -25,8 +23,6 @@ const Footer = () => {
           Want to know more about me, tell me about your project or just to say
           hello? Drop me a line and I'll get back as soon as possible.
         </div>
-        <div className="line"></div>
-        <FooterDetailsContainer />
       </div>
     </section>
   );

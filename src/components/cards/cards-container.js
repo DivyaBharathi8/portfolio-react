@@ -40,49 +40,52 @@ export function CardsContainer() {
 
   return (
     <div className="card-sec-container">
-      <div className="card-section-top">
-        <div className="card-left">
-          {cardsContent.map((card, idx) => (
-            <Cards
-              key={idx}
-              number={card.number}
-              title={card.title}
-              description={card.description}
-            />
-          ))}
+      <div className="container">
+        <h2 className="heading">Services</h2>
+        <div className="card-section-top">
+          <div className="card-left">
+            {cardsContent.map((card, idx) => (
+              <Cards
+                key={idx}
+                number={card.number}
+                title={card.title}
+                description={card.description}
+              />
+            ))}
+          </div>
+          <div className="card-right">
+            {cardsContent2.map((values2, index) => (
+              <Cards2
+                keys={index}
+                number={values2.number}
+                title={values2.title}
+                description={values2.description}
+              />
+            ))}
+          </div>
         </div>
-        <div className="card-right">
-          {cardsContent2.map((values2, index) => (
-            <Cards2
-              keys={index}
-              number={values2.number}
-              title={values2.title}
-              description={values2.description}
-            />
-          ))}
-        </div>
-      </div>
 
-      <div className="card-section-bottom">
-        <div className="card-right">
-          {cardsContent4.map((values4, indexes) => (
-            <Cards4
-              keys={indexes}
-              number={values4.number}
-              title={values4.title}
-              description={values4.description}
-            />
-          ))}
-        </div>
-        <div className="card-right">
-          {cardsContent3.map((values3, indexs) => (
-            <Cards3
-              keys={indexs}
-              number={values3.number}
-              title={values3.title}
-              description={values3.description}
-            />
-          ))}
+        <div className="card-section-bottom">
+          <div className="card-right">
+            {cardsContent4.map((values4, indexes) => (
+              <Cards4
+                keys={indexes}
+                number={values4.number}
+                title={values4.title}
+                description={values4.description}
+              />
+            ))}
+          </div>
+          <div className="card-right">
+            {cardsContent3.map((values3, indexs) => (
+              <Cards3
+                keys={indexs}
+                number={values3.number}
+                title={values3.title}
+                description={values3.description}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
