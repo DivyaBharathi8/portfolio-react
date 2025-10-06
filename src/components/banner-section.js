@@ -13,10 +13,11 @@ export default function BannerSection() {
           And I’m a <span>UI/UX Developer</span>
         </div>
         <p>
-          Hi, I’m a UI/UX Developer. I create intuitive interfaces and deliver
-          smooth, user-focused digital experiences. Hi, I’m a UI/UX Developer. I
-          create intuitive interfaces and deliver smooth, user-focused digital
-          experiences.
+          I specialize in designing and developing responsive, user-friendly
+          websites and web applications that combine intuitive interfaces with
+          seamless user experiences. I leverage HTML, CSS, JavaScript, and
+          modern frameworks to deliver visually appealing and high-performing
+          digital solutions.
         </p>
         <Buttons />
       </div>

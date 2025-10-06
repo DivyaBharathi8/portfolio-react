@@ -11,12 +11,12 @@ const AboutUs = () => {
       <div className="about-left-section">
         <h2 className="about-heading">About</h2>
         <p>
-          I am a UI/UX and Front-End Web Developer, specializing in applying
-          interactive and visual design principles to websites and web
-          applications. My focus is on creating seamless, cohesive user
-          experiences. Using HTML, CSS, and various design tools, I build
-          responsive, user-friendly designs that adapt to different devices and
-          screen sizes.
+          I am a UI/UX and Front-End Web Developer specializing in crafting
+          interactive and visually appealing websites and web applications. I
+          focus on delivering seamless, cohesive user experiences that engage
+          and delight users. Leveraging HTML, CSS, and modern design tools, I
+          create responsive, user-friendly interfaces that adapt flawlessly
+          across devices and screen sizes.
         </p>
         <Buttons />
       </div>

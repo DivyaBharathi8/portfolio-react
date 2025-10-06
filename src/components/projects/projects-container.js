@@ -229,8 +229,9 @@ function ProjectsSection() {
           <div className="mid-line"></div>
           <div className="projects-desc">
             <p>
-              Designing and developing dynamic, responsive websites using custom
-              themes, plugins, and optimized layouts in WordPress.
+              Designing and developing responsive, high-performing websites and
+              apps with modern technologies, custom designs, and seamless user
+              experiences.
             </p>
           </div>
         </div>

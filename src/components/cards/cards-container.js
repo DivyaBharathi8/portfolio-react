@@ -8,33 +8,33 @@ export function CardsContainer() {
       number: "01",
       title: "Custom Website Development",
       description:
-        "Crafting unique, responsive websites using HTML, CSS, JavaScript & Bootstrap — tailored for performance, design precision, and brand identity. Crafting unique, responsive websites using HTML, CSS, JavaScript",
+        "I build responsive, goal-focused websites using HTML, CSS, Bootstrap, and JavaScript, styled with SCSS, Tailwind, and basic React. I create intuitive, user-friendly interfaces with smooth, engaging features.",
     },
   ];
 
   const cardsContent2 = [
     {
       number: "02",
-      title: "Custom Website Development",
+      title: "Wordpress Developer",
       description:
-        "Designing and developing dynamic, responsive websites using custom themes, plugins, and optimized layouts in WordPress.",
+        "I craft responsive, customized WordPress websites with smooth plugin integration and engaging, user-friendly designs.",
     },
   ];
   const cardsContent3 = [
     {
       number: "04",
-      title: "Custom Website Development",
+      title: "Shopify Developer",
       description:
-        "Crafting unique, responsive websites using HTML, CSS, JavaScript & Bootstrap — tailored for performance, design precision, and brand identity. Crafting unique, responsive websites using HTML, CSS, JavaScript",
+        "I build and customize Shopify stores with sleek designs, smooth functionality, and optimized user experiences. My focus is on boosting your online sales and enhancing your brand’s digital presence with seamless, high-performing stores.",
     },
   ];
 
   const cardsContent4 = [
     {
       number: "03",
-      title: "Custom Website Development",
+      title: "Wix Developer",
       description:
-        "Designing and developing dynamic, responsive websites using custom themes, plugins, and optimized layouts in WordPress.",
+        "I design and customize responsive Wix websites that are visually appealing, user-friendly, and aligned with your brand goals.",
     },
   ];
 

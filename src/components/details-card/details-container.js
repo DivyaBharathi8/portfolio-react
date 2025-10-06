@@ -17,7 +17,25 @@ function DetailsContainer() {
           <Details
             key={index}
             detailTitle={values.detailTitle}
-            detailDes={values.detailDes}
+            detailDes={
+              values.detailTitle === "Email" ? (
+                <a href={`mailto:${values.detailDes}`}>{values.detailDes}</a>
+              ) : values.detailTitle === "LinkedIn" ? (
+                <a
+                  href={`https://www.linkedin.com/in/divya-bharathi-p/`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {values.detailDes}
+                </a>
+              ) : values.detailTitle === "Phone" ? (
+                <a href={`tel:${values.detailDes}`} target="_self">
+                  {values.detailDes}
+                </a>
+              ) : (
+                <p>{values.detailDes}</p>
+              )
+            }
           />
         ))}
       </div>
