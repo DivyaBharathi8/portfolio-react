@@ -30,7 +30,7 @@ import NishangiImg from "../../assets/images/projects/Nishangi.webp";
 import KarlaniImg from "../../assets/images/projects/Karlan.webp";
 import MVfenceiImg from "../../assets/images/projects/mv-fence.webp";
 import GaaptuffImg from "../../assets/images/projects/Gaptuff.webp";
-import DiginkImg from "../../assets/images/projects/Gaptuff.webp";
+import DiginkImg from "../../assets/images/projects/digink.webp";
 import "../projects/project-style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
