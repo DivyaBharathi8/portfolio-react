@@ -13,13 +13,13 @@ function App() {
     <main>
       <Header />
       <section>
-        <BannerSection />
-        <CardsContainer />
-        <AboutUs />
-        <DetailsContainer />
-        <SkillsContainer />
-        <ProjectsSection />
-        <ContactForm />
+        <BannerSection id="home" />
+        <CardsContainer id="services" />
+        <AboutUs id="about" />
+        <DetailsContainer id="details" />
+        <SkillsContainer id="skills" />
+        <ProjectsSection id="projects" />
+        <ContactForm id="contact" />
       </section>
       <Footer />
     </main>

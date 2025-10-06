@@ -188,7 +188,7 @@ function Arrow(props) {
   );
 }
 
-function ProjectsSection() {
+function ProjectsSection({ id }) {
   const [isMobile, setIsMobile] = useState(undefined);
 
   useEffect(() => {
@@ -217,7 +217,7 @@ function ProjectsSection() {
   if (isMobile === undefined) return null; // Avoid SSR/client mismatch
 
   return (
-    <div className="projects-section container">
+    <div className="projects-section container" id={id}>
       <div className="projects-section-header">
         <div className="project-header-left">
           <div>

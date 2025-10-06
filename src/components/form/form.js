@@ -2,9 +2,9 @@ import React from "react";
 import "../form/contact-form.css";
 import ContactImg from "../../assets/form-img.webp";
 
-const ContactForm = () => (
+const ContactForm = ({ id }) => (
   <div className="container">
-    <div className="contact-container">
+    <div className="contact-container" id={id}>
       <div className="contact-form-section">
         <h2>
           GET IN <span className="highlight">TOUCH</span>

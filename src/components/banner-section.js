@@ -3,9 +3,9 @@ import "../assets/style.css";
 import Buttons from "./buttons";
 import BannerImg from "../assets/images/Banner.png";
 
-export default function BannerSection() {
+export default function BannerSection({ id }) {
   return (
-    <div className="banner-section flex-center container">
+    <div className="banner-section flex-center container" id={id}>
       <div className="left-section">
         <span className="hello-text">Hello It’s Me</span>
         <h1>Divya Bharathi</h1>

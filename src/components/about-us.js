@@ -2,9 +2,9 @@ import "../assets/style.css";
 import Buttons from "./buttons";
 import AboutImg from "../assets/images/about.png";
 
-const AboutUs = () => {
+const AboutUs = ({ id }) => {
   return (
-    <div className="about-section p-t-b">
+    <div className="about-section p-t-b" id={id}>
       <div className="about-sec-img">
         <img src={AboutImg} className="about-img" alt="" />
       </div>

@@ -2,7 +2,7 @@ import { Cards, Cards2, Cards3, Cards4 } from "./cards";
 
 import "./style.css";
 
-export function CardsContainer() {
+export function CardsContainer({ id }) {
   const cardsContent = [
     {
       number: "01",
@@ -39,7 +39,7 @@ export function CardsContainer() {
   ];
 
   return (
-    <div className="card-sec-container">
+    <div className="card-sec-container" id={id}>
       <div className="container">
         <h2 className="heading">Services</h2>
         <div className="card-section-top">

@@ -13,7 +13,7 @@ import IllustratorImg from "../../assets/images/illustrator.png";
 import XdImg from "../../assets/images/xd.png";
 import "../comp-style.css";
 
-export default function SkillsContainer() {
+export default function SkillsContainer({ id }) {
   const skillData = [
     { name: "HTML", img: HtmlImg },
     { name: "CSS", img: CssImg },
@@ -33,7 +33,7 @@ export default function SkillsContainer() {
   ];
 
   return (
-    <section className="skill-sec">
+    <section className="skill-sec" id={id}>
       <div className="skill-container">
         <h2 className="heading">My Favourite Tools</h2>
         <div className="skill-box">

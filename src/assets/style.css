@@ -51,7 +51,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   flex-wrap: wrap;
 }
 
@@ -64,7 +64,6 @@ body {
 .nav-list ul li:hover {
   background-color: var(--Primary-bg-color);
   /* transform: scale(1.05); */
-  font-size: 18px;
 }
 .nav-list ul li:active {
   background-color: var(--Primary-bg-color);

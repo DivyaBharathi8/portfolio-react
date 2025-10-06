@@ -1,7 +1,7 @@
 import React from "react";
 import Details from "./details";
 
-function DetailsContainer() {
+function DetailsContainer({ id }) {
   const detailsData = [
     { detailTitle: "Name", detailDes: "Divya Bharathi P" },
     { detailTitle: "Phone", detailDes: "+919014716599" },
@@ -11,7 +11,7 @@ function DetailsContainer() {
     { detailTitle: "Location", detailDes: "Visakhapatnam" },
   ];
   return (
-    <section className="detail-sec container">
+    <section className="detail-sec container" id={id}>
       <div className="details-container">
         {detailsData.map((values, index) => (
           <Details
