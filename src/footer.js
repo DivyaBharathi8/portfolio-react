@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="footer-box">
           {footerData.map((lists, index) => (
             <div key={index} className="footer-item">
-              <a href={lists.link} key={index} target="_blank">
+              <a href={lists.link} key={index} target="_blank" rel="noreferrer">
                 <img src={lists.img} alt="Images" />
               </a>
             </div>
