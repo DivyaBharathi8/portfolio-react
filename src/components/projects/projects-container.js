@@ -175,7 +175,7 @@ const projectsData = [
 
 // Custom Arrow Components
 function Arrow(props) {
-  const { className, style, onClick, direction } = props;
+  const { style, onClick, direction } = props;
   return (
     <button
       className={`custom-arrow ${direction}`}
