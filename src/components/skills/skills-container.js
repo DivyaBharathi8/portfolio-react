@@ -11,6 +11,8 @@ import WixImg from "../../assets/images/wix.png";
 import PhotoShopImg from "../../assets/images/photoshop.png";
 import IllustratorImg from "../../assets/images/illustrator.png";
 import XdImg from "../../assets/images/xd.png";
+import ScssImg from "../../assets/images/Sass.png";
+import TWImg from "../../assets/images/Tailwind.png";
 import "../comp-style.css";
 
 export default function SkillsContainer({ id }) {
@@ -27,9 +29,8 @@ export default function SkillsContainer({ id }) {
     { name: "Photoshop", img: PhotoShopImg },
     { name: "Illustrator", img: IllustratorImg },
     { name: "Adobe XD", img: XdImg },
-    { name: "Shopify", img: ShopifyImg },
-    { name: "Wix", img: WixImg },
-    { name: "Photoshop", img: PhotoShopImg },
+    { name: "Sass", img: ScssImg },
+    { name: "Tailwind Css", img: TWImg },
   ];
 
   return (
